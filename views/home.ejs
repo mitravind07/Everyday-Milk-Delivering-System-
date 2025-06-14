@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dairy Connect - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom color */
+        .bg-custom-green {
+            background-color: #6BAD00;
+        }
+
+        .text-custom-green {
+            color: #6BAD00;
+        }
+
+        .hover\:bg-custom-green:hover {
+            background-color: #6BAD00;
+        }
+
+        .hover\:text-custom-green:hover {
+            color: #6BAD00;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+    <!-- Header Section -->
+    <header class="bg-white shadow-sm">
+        <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+            <div class="flex h-16 items-center justify-between">
+                <!-- Logo -->
+                <img src="https://res.cloudinary.com/dddx8sn0v/image/upload/v1731395852/fizr7nt7fvpz4qkzeqar.jpg" alt="Dairy Connect Logo" style="width: 8em; height: 4em;">
+
+                <!-- Navigation Links -->
+                <nav class="hidden md:flex md:gap-8">
+                    <a class="text-gray-600 hover:text-custom-green transition" href="#">Home</a>
+                    <a class="text-gray-600 hover:text-custom-green transition" href="#">Products</a>
+                    <a class="text-gray-600 hover:text-custom-green transition" href="#">Benefits</a>
+                    <a class="text-gray-600 hover:text-custom-green transition" href="#">The Difference</a>
+                    <a class="text-gray-600 hover:text-custom-green transition" href="#">Process</a>
+                    <a class="text-gray-600 hover:text-custom-green transition" href="#">Subscribe</a>
+                </nav>
+
+                <!-- Contact Customer Care Button -->
+                <div class="flex items-center gap-4">
+                    <a href="#" class="px-4 py-2 border border-gray-300 rounded-lg text-gray-600 font-medium hover:border-custom-green hover:text-custom-green transition">
+                        Contact Customer Care
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-24 bg-gray-50 text-center relative bg-cover bg-center min-h-[60vh]" style="background-image: url('https://res.cloudinary.com/dddx8sn0v/image/upload/v1731396716/dvfpdlzk4spznwjwfe8h.jpg');">
+        <!-- Optional Overlay for Better Text Visibility -->
+        <div class="absolute inset-0 bg-white opacity-50"></div>
+        
+        <!-- Content Area with Centered Text -->
+        <div class="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col items-center justify-center min-h-[60vh]">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800">Drink Local. Stay Healthy. Share Joy.</h1>
+            <p class="mt-4 text-lg text-gray-700">Let’s take you back to the good old days when you relished drinking milk. Get back on your habit again!</p>
+            <div class="mt-8">
+                <a href="/subscribe" class="px-8 py-3 bg-custom-green text-white font-medium rounded-md hover:bg-custom-green transition shadow-lg">
+                    Start My Subscription Now!
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+    <!-- Features Section -->
+    <section class="py-16 bg-gray-100 text-center">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">Why Choose Us?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
+                    <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <img src="https://res.cloudinary.com/dddx8sn0v/image/upload/v1731396828/ireswwcncbuuedxfkgsk.jpg" alt="Fuss-free Delivery Icon" class="w-12 h-12">
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800">Fuss-free Milk Delivery</h3>
+                    <p class="text-gray-500 mt-3">Convenient and reliable milk delivery straight to your door.</p>
+                </div>
+    
+                <!-- Feature 2 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
+                    <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <img src="https://res.cloudinary.com/dddx8sn0v/image/upload/v1731396828/ireswwcncbuuedxfkgsk.jpg" alt="Zero-adulteration Icon" class="w-12 h-12">
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800">Zero-adulteration</h3>
+                    <p class="text-gray-500 mt-3">Enjoy pure, unadulterated milk sourced locally and sustainably.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+</body>
+</html>
